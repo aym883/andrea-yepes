@@ -7,12 +7,20 @@
 
 /* font-family: 'Lato', sans-serif; */
 .menu {
-  background-color: rgb(116, 44, 106);
+  background-color: rgb(92, 31, 83);
   height: 80px;
   width: 100vw;
   display: flex;
   align-items: center;
   justify-content: space-around;
+}
+
+.logo-nombre {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  margin-right: 1rem;
+  margin-top: 2rem;
 }
 
 .logo-personal {
@@ -22,25 +30,17 @@
   margin-bottom: 2.5rem;
 }
 
-.logo-nombre {
-  display: flex;
-  flex-direction: row;
-  align-items: start;
-  margin-right: 1rem;
-  margin-top: 2rem;
-}
-
 .h1-nombre-header {
   display: flex;
   flex-direction: column;
-  justify-content: start;
+  justify-content: flex-start;
 }
 
 .h1-header1 {
   font-family: "Lato", sans-serif;
   font-weight: 500;
   font-style: bold;
-  font-size: 1.4rem;
+  font-size: 1.1rem;
   color: rgb(255, 255, 255);
   margin-left: 1rem;
   margin-top: 1.5rem;
@@ -183,11 +183,14 @@ li.active {
   .a-menu {
     font-size: 1rem;
   }
+  .menu {
+    height: 70px;
+  }
   .h1-header1 {
-    font-size: 1rem;
+    font-size: 1.1rem;
   }
   .h1-header2 {
-    font-size: 1rem;
+    font-size: 1.1rem;
   }
   .checkbtn {
     display: block;
@@ -196,6 +199,95 @@ li.active {
     left: 0;
   }
 }
+.main-index {
+  background-color: rgb(245, 245, 245);
+}
+
+.columna1 {
+  padding-left: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.h2-index1 {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 4rem;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  padding-top: 12rem;
+}
+
+.h2-index2 {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 3rem;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+.ul-botones-index {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.li-botones-index {
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.6rem;
+}
+
+.a-boton-index {
+  text-decoration: none;
+  text-decoration-line: none;
+  color: rgb(255, 255, 255);
+  background-color: rgb(223, 146, 88);
+  border: 0.5rem solid rgb(223, 146, 88);
+  border-radius: 5rem;
+  margin: 0.5rem;
+}
+
+.foto-index {
+  width: 25rem;
+}
+
+.columna3 {
+  background-color: rgb(223, 146, 88);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.p-home {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-style: light;
+  font-size: 1.2rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.p-home1 {
+  padding-top: 0.8rem;
+}
+
+.h3-index {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2rem;
+  color: rgb(0, 0, 0);
+  padding-bottom: 0.8rem;
+}
+
 .icono-whatsapp {
   width: 3rem;
   position: fixed;
@@ -203,7 +295,6 @@ li.active {
   right: 0.5rem;
 }
 
-/* Footer */
 .pie {
   background-color: rgb(220, 244, 244);
 }

@@ -1,217 +1,233 @@
+.menu {
+  background-color: $colorMoradoOscuro;
 
- .menu {
-    background-color: $colorMorado;
-  
-    height: 80px;
-    width: 100vw;
-  
-    display: flex;
-  
-    align-items: center;
-    justify-content: space-around;
-  }
-  .logo-nombre {
-    display: flex;
-    flex-direction: row;
-    align-items: start;
-    margin-right: 1rem;
-    margin-top: 2rem;
+  height: 80px;
+  width: 100vw;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: space-around;
+}
+
+.logo-nombre {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  margin-right: 1rem;
+  margin-top: 2rem;
+}
+
+.logo-personal {
+  width: 4.5rem;
+  margin-left: 30px;
+  margin-top: 1rem;
+  margin-bottom: 2.5rem;
+}
+
+.h1-nombre-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.h1-header1 {
+  font-family: "Lato", sans-serif;
+  font-weight: 500;
+  font-style: bold;
+  font-size: 1.1rem;
+
+  color: $colorBlanco;
+
+  margin-left: 1rem;
+  margin-top: 1.5rem;
+}
+
+.h1-header2 {
+  font-family: "Lato", sans-serif;
+  font-weight: 500;
+  font-style: bold;
+  font-size: 1.4rem;
+
+  color: $colorBlanco;
+
+  margin-left: 1rem;
+  margin-bottom: 2rem;
+}
+
+.menu-items {
+  list-style-type: none;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: right space-around;
+  align-items: center;
+
+  gap: 2rem;
+  margin-right: 30px;
+  margin-top: 1rem;
+
+  position: right;
+}
+
+.ul-menu {
+  list-style-type: none;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: right space-around;
+  align-items: center;
+
+  gap: 2.5rem;
+  margin-right: 0.5rem;
+
+  position: right;
+}
+
+.a-menu {
+  text-decoration: none;
+  text-decoration-line: none;
+
+  color: $colorBlanco;
+
+  font-family: "Lato", sans-serif;
+  font-style: light;
+  font-weight: 300;
+  font-size: 1.1rem;
+}
+
+.a-menu:hover {
+  background-color: $colorMoradoClaro;
+}
+
+li.active {
+  background-color: $colorMoradoOscuro;
+}
+
+.checkbtn {
+  color: $colorBlanco;
+  font-size: 25px;
+  float: right;
+  line-height: 80px;
+  display: none;
+  cursor: pointer;
+
+}
+
+#check {
+  display: none;
+}
+
+@media (max-width: 830px) {
+  .menu {
+    height: 75px;
   }
 
   .logo-personal {
-    width: 4.5rem;
-    margin-left: 30px;
-    margin-top: 1rem;
-    margin-bottom: 2.5rem;
+    width: 4rem;
   }
-  
-  .h1-nombre-header {
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-  }
-  
+
   .h1-header1 {
-    font-family: "Lato", sans-serif;
-    font-weight: 500;
-    font-style: bold;
-    font-size: 1.4rem;
-  
-    color: $colorBlanco;
-  
-    margin-left: 1rem;
-    margin-top: 1.5rem;
+    font-size: 1.2rem;
   }
-  
+
   .h1-header2 {
-    font-family: "Lato", sans-serif;
-    font-weight: 500;
-    font-style: bold;
-    font-size: 1.4rem;
-  
-    color: $colorBlanco;
-  
-    margin-left: 1rem;
-    margin-bottom: 2rem;
+    font-size: 1.2rem;
   }
-  
-  .menu-items {
-    list-style-type: none;
-  
-    display: flex;
-    flex-direction: row;
-    justify-content: right space-around;
-    align-items: center;
-  
-    gap: 2rem;
-    margin-right: 30px;
-    margin-top: 1rem;
-  
-    position: right;
-  }
-  
-  .ul-menu {
-    list-style-type: none;
-  
-    display: flex;
-    flex-direction: row;
-    justify-content: right space-around;
-    align-items: center;
-  
-    gap: 2.5rem;
-    margin-right: 0.5rem;
-  
-    position: right;
-  }
-  
+
   .a-menu {
-    text-decoration: none;
-    text-decoration-line: none;
-  
-    color: $colorBlanco;
-  
-    font-family: "Lato", sans-serif;
-    font-style: light;
-    font-weight: 300;
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 715px) {
+  .menu {
+    height: 70px;
+  }
+
+  .logo-personal {
+    width: 3.8rem;
+  }
+
+  .h1-header1 {
+    font-size: 1rem;
+  }
+
+  .h1-header2 {
+    font-size: 1rem;
+  }
+
+  .a-menu {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 630px) {
+  .menu {
+    height: 65px;
+  }
+
+  .logo-personal {
+    width: 3.5rem;
+  }
+
+  .h1-header1 {
+    font-size: 0.8rem;
+  }
+
+  .h1-header2 {
+    font-size: 0.8rem;
+  }
+
+  .a-menu {
+    font-size: 0.7rem;
+  }
+}
+
+@media (max-width: 580px) {
+  .menu-items {
+    position: fixed;
+    width: 100vw;
+    height: 100vw;
+    text-align: center;
+    flex-direction: column;
+    background: $colorMoradoClaro;
+    top: 50px;
+
+    gap: 1rem;
+    margin-right: 0rem;
+    margin-top: 0rem;
+
+    position: center;
+    left: -110%;
+  }
+
+  .li-menu {
+    display: block;
+    margin-top: 5px;
+  }
+
+  .a-menu {
+    font-size: 1rem;
+  }
+
+  .menu {
+    height: 70px;
+  }
+
+  .h1-header1 {
     font-size: 1.1rem;
   }
-  
-  .a-menu:hover {
-    background-color: $colorMoradoClaro;
+
+  .h1-header2 {
+    font-size: 1.1rem;
   }
-  
-  li.active {
-    background-color: $colorMoradoOscuro;
-  }
-  
+
   .checkbtn {
-    color: $colorBlanco;
-    font-size: 25px;
-    float: right;
-    line-height: 80px;
-    display: none;
-    cursor: pointer;
-    
+    display: block;
   }
 
-  #check {
-    display: none;
+  #check:checked~.menu-items {
+    left: 0;
   }
-  
-  @media (max-width: 830px){
-    .menu {
-      height: 75px;
-    }
-    .logo-personal {
-      width: 4rem;
-    }
-    .h1-header1 {
-      font-size: 1.2rem;
-    }
-    .h1-header2 {
-      font-size: 1.2rem;
-    }
-    .a-menu {
-      font-size: 1rem;
-    }
-}
-@media (max-width: 715px) {
-    .menu {
-      height: 70px;
-    }
-    .logo-personal {
-      width: 3.8rem;
-    }
-    .h1-header1 {
-      font-size: 1rem;
-    }
-    .h1-header2 {
-      font-size: 1rem;
-    }
-    .a-menu {
-      font-size: 0.8rem;
-    }
-  }
-  
-  @media (max-width: 630px) {
-    .menu {
-      height: 65px;
-    }
-    .logo-personal {
-      width: 3.5rem;
-    }
-    .h1-header1 {
-      font-size: 0.8rem;
-    }
-    .h1-header2 {
-      font-size: 0.8rem;
-    }
-    .a-menu {
-      font-size: 0.7rem;
-    }
-  }
-  @media (max-width: 580px){
-    .menu-items {
-      position: fixed;
-      width: 100vw;
-      height: 100vw;
-      text-align: center;
-      flex-direction: column;
-      background: $color;
-      top: 50px;
-  
-      gap: 1rem;
-      margin-right: 0rem;
-      margin-top: 0rem;
-  
-      position: center;
-      left: -110%;
-    }
-  
-    .li-menu {
-      display: block;
-      margin-top: 5px;
-    }
-  
-    .a-menu {
-      font-size: 1rem;
-    }
-    .menu {
-        height: 70px;
-    }
-
-    .h1-header1 {
-      font-size: 1.1rem;
-    }
-    .h1-header2 {
-      font-size: 1.1rem;
-    }
-  
-    .checkbtn {
-      display: block; 
-    }
-  
-    #check:checked ~ .menu-items{
-      left: 0;
-    }
 }
