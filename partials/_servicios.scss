@@ -1,0 +1,22 @@
+.card-portafolio {
+    padding: 2rem;
+    background-color: $colorRosaClaro;
+
+    .card{
+
+        .card-title {
+            font-family: "Lato", sans-serif;
+            font-weight: 700;
+            font-style: bold;
+            font-size: 1.3rem;
+        }
+
+        .card-text {
+            font-family: "Lato", sans-serif;
+            font-weight: 300;
+            font-style: light;
+            font-size: 1.1rem
+        }
+        
+    }
+}
