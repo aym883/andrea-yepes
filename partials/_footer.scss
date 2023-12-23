@@ -1,47 +1,46 @@
-
 .pie {
-    background-color: rgb(220, 244, 244) ;
-    }
-    
-    .h5-footer{
-      font-family:'Lato', sans-serif ;
-      font-weight: 700;
-      font-style: bold;
-      font-size: 1rem;
-    
-      color:$colorVerde;
-    }
-    
-    .ul-footer{
-      list-style-type: none;
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
-    }
-    
-    .a-footer{
-      list-style-type: none;
-      text-decoration: none;
-      text-decoration-line: none;
-    
-      font-family:'Lato', sans-serif ;
-      font-weight: 300;
-      font-style: light;
-      font-size: 1.5rem; 
-    
-      color:$colorVerde;
-      margin: 3rem;
-    }
-    
-    .linea{
-      color:$colorVerdeOscuro;
-      width: 100 vw;
-    }
-    
-    .text-botton{
-      font-family:'Lato', sans-serif ;
-      font-weight: 300;
-      font-style: light;
-      font-size: 0.7rem; 
-   
-    }
+  background-color: rgb(220, 244, 244);
+}
+
+.h5-footer {
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  font-style: bold;
+  font-size: 1rem;
+
+  color: $colorVerde;
+}
+
+.ul-footer {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.a-footer {
+  list-style-type: none;
+  text-decoration: none;
+  text-decoration-line: none;
+
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-style: light;
+  font-size: 1.5rem;
+
+  color: $colorVerde;
+  margin: 3rem;
+}
+
+.linea {
+  color: $colorVerdeOscuro;
+  width: 100 vw;
+}
+
+.text-botton {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-style: light;
+  font-size: 0.7rem;
+
+}
