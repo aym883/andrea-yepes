@@ -1,12 +1,8 @@
-.main-index {
-    background-color: rgb(245, 245, 245);
-}
-
 .columna1 {
     padding-left: 3rem;
     display: flex;
     flex-direction: column;
-    justify-content: center
+    justify-content: center;
 }
 
 .h2-index1 {
@@ -48,7 +44,7 @@
     text-decoration-line: none;
 
     color: rgb(255, 255, 255);
-    background-color: $colorNaranja;
+    background-color:$colorNaranja;
 
     border: 0.5rem solid $colorNaranja;
     border-radius: 5rem;
@@ -62,7 +58,7 @@
 }
 
 .columna3 {
-    background-color: $colorNaranja;
+    background-color: $colorVerde;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -74,6 +70,7 @@
     font-weight: 300;
     font-style: light;
     font-size: 1.2rem;
+    text-align: justify;
     padding-left: 1.5rem;
     padding-right: 1.5rem;
 }

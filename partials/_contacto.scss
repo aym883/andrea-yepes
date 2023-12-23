@@ -3,14 +3,14 @@
     font-family: "Lato", sans-serif;
 
     max-width: 2000px;
-    padding: 1.5rem;
     margin: auto;
 
     .h3-contacto {
         font-family: "Lato", sans-serif;
-        font-weight: 700;
-        font-style: bold;
-        font-size: 1.5rem;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 2rem;
+        text-align: left;
     }
 
     .h4-contacto {
@@ -19,7 +19,7 @@
         font-style: light;
         font-size: 1rem;
         margin: 0.5;
-        text-align: center;
+        text-align: left;
     }
 
     .contacto-formulario {

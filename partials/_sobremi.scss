@@ -1,0 +1,37 @@
+.sobremi-wrapper {
+
+    .foto-titulo {
+        padding-top: 3rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        align-items: center;
+
+        img {
+            width: 50vh;
+        }
+
+        h1{
+            font-family: "Lato", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            font-size: 2.5rem;
+            text-align: left;
+            padding-bottom: 3rem;
+        }
+    }
+
+    .texto {
+        padding:5rem;
+        background-color: $colorRosaClaro;
+        text-align: justify;
+    }
+}
+
+
+@media (min-width: 932px) {
+    .sobremi-wrapper {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+    }
+}

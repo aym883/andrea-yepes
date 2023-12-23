@@ -199,10 +199,6 @@ li.active {
     left: 0;
   }
 }
-.main-index {
-  background-color: rgb(245, 245, 245);
-}
-
 .columna1 {
   padding-left: 3rem;
   display: flex;
@@ -261,7 +257,7 @@ li.active {
 }
 
 .columna3 {
-  background-color: rgb(223, 146, 88);
+  background-color: rgb(73, 141, 143);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -273,6 +269,7 @@ li.active {
   font-weight: 300;
   font-style: light;
   font-size: 1.2rem;
+  text-align: justify;
   padding-left: 1.5rem;
   padding-right: 1.5rem;
 }
@@ -290,9 +287,39 @@ li.active {
   padding-bottom: 0.8rem;
 }
 
+.sobremi-wrapper .foto-titulo {
+  padding-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+}
+.sobremi-wrapper .foto-titulo img {
+  width: 50vh;
+}
+.sobremi-wrapper .foto-titulo h1 {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2.5rem;
+  text-align: left;
+  padding-bottom: 3rem;
+}
+.sobremi-wrapper .texto {
+  padding: 5rem;
+  background-color: rgb(240, 208, 219);
+  text-align: justify;
+}
+
+@media (min-width: 932px) {
+  .sobremi-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+  }
+}
 .card-portafolio {
   padding: 2rem;
-  background-color: rgb(240, 208, 219);
+  background-color: rgb(223, 146, 88);
 }
 .card-portafolio .card .card-title {
   font-family: "Lato", sans-serif;
@@ -311,14 +338,14 @@ li.active {
   background-color: rgb(255, 255, 255);
   font-family: "Lato", sans-serif;
   max-width: 2000px;
-  padding: 1.5rem;
   margin: auto;
 }
 .contacto-wrapper .h3-contacto {
   font-family: "Lato", sans-serif;
-  font-weight: 700;
-  font-style: bold;
-  font-size: 1.5rem;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2rem;
+  text-align: left;
 }
 .contacto-wrapper .h4-contacto {
   font-family: "Lato", sans-serif;
@@ -326,7 +353,7 @@ li.active {
   font-style: light;
   font-size: 1rem;
   margin: 0.5;
-  text-align: center;
+  text-align: left;
 }
 .contacto-wrapper .contacto-formulario {
   background-color: rgb(223, 146, 88);
