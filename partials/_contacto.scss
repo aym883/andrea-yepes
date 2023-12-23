@@ -1,0 +1,96 @@
+.contacto-wrapper {
+    background-color: $colorBlanco;
+    font-family: "Lato", sans-serif;
+
+    max-width: 2000px;
+    padding: 1.5rem;
+    margin: auto;
+
+    .h3-contacto {
+        font-family: "Lato", sans-serif;
+        font-weight: 700;
+        font-style: bold;
+        font-size: 1.5rem;
+    }
+
+    .h4-contacto {
+        font-family: "Lato", sans-serif;
+        font-weight: 300;
+        font-style: light;
+        font-size: 1rem;
+        margin: 0.5;
+        text-align: center;
+    }
+
+    .contacto-formulario {
+        background-color: rgb(223, 146, 88);
+        padding: 2rem;
+        margin: 0;
+
+
+        label {
+            font-family: "Lato", sans-serif;
+            font-weight: 400;
+            font-style: bold;
+            font-size: 1rem;
+            padding: 0.3rem;
+        }
+
+        .info {
+            font-family: "Lato", sans-serif;
+            font-weight: 400;
+            font-style: bold;
+            font-size: 1rem;
+            width: 100%;
+            padding: 0.3rem;
+        }
+
+        textarea {
+            font-family: "Lato", sans-serif;
+            font-weight: 300;
+            font-style: light;
+            font-size: 1rem;
+            width: 100%;
+            padding: 0.3rem;
+        }
+
+        button {
+            margin-top: 1rem;
+        }
+
+    }
+
+    .contacto-informacion {
+        background-color: $colorBlanco;
+        padding: 2rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+
+
+        ul{
+            list-style-type: none;  
+        }
+
+        li{
+            padding: 0.5rem;
+        }
+
+        i{
+            font-family: "Lato", sans-serif;
+            font-weight: 400;
+            font-style: bold;
+            font-size: 1.2rem;   
+        }
+
+    }
+}
+
+@media (min-width: 932px) {
+.contacto-wrapper{
+   display: grid; 
+   grid-template-columns: 2fr 1fr;
+    }
+}
