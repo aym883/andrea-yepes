@@ -1,0 +1,40 @@
+.carousel-wrapper {
+    padding: 0.5rem;
+}
+
+.galeria-wrapper {
+    padding: 2rem;
+
+    .card {
+        font-family: 'Lato', sans-serif;
+        margin: 0.5rem;
+
+        .card-title {
+            font-family: "Lato", sans-serif;
+            font-weight: 700;
+            font-style: bold;
+            font-size: 1.3rem;
+            color: $colorBlanco;
+        }
+
+        .card-text {
+            font-family: "Lato", sans-serif;
+            font-weight: 300;
+            font-style: light;
+            font-size: 1rem;
+            color: $colorBlanco;
+        }
+    }
+
+    .card-edicion {
+        background-color: $colorVerdeOscuro ;
+    }
+
+    .card-Foto {
+        background-color: $colorRosaOscuro;
+    }
+
+    .card-diseno {
+        background-color: $colorNaranja;
+    }
+}

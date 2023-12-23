@@ -1,6 +1,13 @@
   .icono-whatsapp{
     width: 3.5rem;
     position: fixed;
-        bottom:8rem;
+        bottom:5rem;
         right: 0.3rem;
+
+        @media (max-width: 768px){
+          width: 2.5rem;
+        }
+
     }
+
+  

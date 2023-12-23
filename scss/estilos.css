@@ -169,12 +169,18 @@ li.active {
     text-align: center;
     flex-direction: column;
     background: rgb(208, 134, 198);
-    top: 50px;
+    top: 70px;
     gap: 1rem;
     margin-right: 0rem;
     margin-top: 0rem;
     position: center;
     left: -110%;
+  }
+  .checkbtn {
+    display: block;
+  }
+  #check:checked ~ .menu-items {
+    left: 0;
   }
   .li-menu {
     display: block;
@@ -191,12 +197,6 @@ li.active {
   }
   .h1-header2 {
     font-size: 1.1rem;
-  }
-  .checkbtn {
-    display: block;
-  }
-  #check:checked ~ .menu-items {
-    left: 0;
   }
 }
 .columna1 {
@@ -291,7 +291,7 @@ li.active {
   padding-top: 3rem;
   display: flex;
   flex-direction: column;
-  justify-content: end;
+  justify-content: flex end;
   align-items: center;
 }
 .sobremi-wrapper .foto-titulo img {
@@ -332,6 +332,41 @@ li.active {
   font-weight: 300;
   font-style: light;
   font-size: 1.1rem;
+}
+
+.carousel-wrapper {
+  padding: 0.5rem;
+}
+
+.galeria-wrapper {
+  padding: 2rem;
+}
+.galeria-wrapper .card {
+  font-family: "Lato", sans-serif;
+  margin: 0.5rem;
+}
+.galeria-wrapper .card .card-title {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: bold;
+  font-size: 1.3rem;
+  color: rgb(255, 255, 255);
+}
+.galeria-wrapper .card .card-text {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-style: light;
+  font-size: 1rem;
+  color: rgb(255, 255, 255);
+}
+.galeria-wrapper .card-edicion {
+  background-color: rgb(9, 112, 115);
+}
+.galeria-wrapper .card-Foto {
+  background-color: rgb(219, 72, 115);
+}
+.galeria-wrapper .card-diseno {
+  background-color: rgb(223, 146, 88);
 }
 
 .contacto-wrapper {
@@ -416,8 +451,13 @@ li.active {
 .icono-whatsapp {
   width: 3.5rem;
   position: fixed;
-  bottom: 8rem;
+  bottom: 5rem;
   right: 0.3rem;
+}
+@media (max-width: 768px) {
+  .icono-whatsapp {
+    width: 2.5rem;
+  }
 }
 
 .pie {

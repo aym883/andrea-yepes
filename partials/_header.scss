@@ -192,7 +192,7 @@ li.active {
     text-align: center;
     flex-direction: column;
     background: $colorMoradoClaro;
-    top: 50px;
+    top: 70px;
 
     gap: 1rem;
     margin-right: 0rem;
@@ -202,6 +202,13 @@ li.active {
     left: -110%;
   }
 
+  .checkbtn {
+    display: block;
+  }
+
+  #check:checked~.menu-items {
+    left: 0;
+  }
   .li-menu {
     display: block;
     margin-top: 5px;
@@ -221,13 +228,5 @@ li.active {
 
   .h1-header2 {
     font-size: 1.1rem;
-  }
-
-  .checkbtn {
-    display: block;
-  }
-
-  #check:checked~.menu-items {
-    left: 0;
   }
 }
