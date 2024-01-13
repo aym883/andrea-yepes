@@ -74,7 +74,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content:end ;
+    justify-content:flex-end ;
 }
 
 .foto-index {
@@ -82,7 +82,8 @@
 }
 
 .columna3 {
-    background-color: $colorVerde;
+    background: rgb(73,141,143);
+    background: radial-gradient(circle, rgba(73,141,143,1) 45%, rgba(9,112,115,1) 86%); 
     display: flex;
     flex-direction: column;
     align-items: center;

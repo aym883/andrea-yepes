@@ -1,6 +1,7 @@
 .cards-servicios {
     padding: 2rem;
-    background-color: $colorNaranja;
+    background: rgb(223,146,88);
+    background: linear-gradient(0deg, rgba(223,146,88,1) 68%, rgba(228,192,129,1) 100%); 
 
     .card {
         min-height: 750px; 
