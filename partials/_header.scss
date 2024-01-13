@@ -104,17 +104,15 @@ li.active {
   background-color: $colorMoradoOscuro;
 }
 
-.checkbtn {
-  color: $colorBlanco;
-  font-size: 25px;
-  float: right;
-  line-height: 80px;
+#menu-hamburguesa{
   display: none;
-  cursor: pointer;
-
 }
 
-#check {
+#menu-icon{
+  color: $colorBlanco;
+  font-size: 25px;
+  line-height: 80px;
+  cursor: pointer;
   display: none;
 }
 
@@ -185,6 +183,11 @@ li.active {
 }
 
 @media (max-width: 580px) {
+
+  #menu-icon{
+  display: block;
+} 
+
   .menu-items {
     position: fixed;
     width: 100vw;
@@ -202,12 +205,9 @@ li.active {
     left: -110%;
   }
 
-  .checkbtn {
-    display: block;
-  }
-
-  #check:checked~.menu-items {
+  #menu-hamburguesa:checked + .menu-items {
     left: 0;
+
   }
   .li-menu {
     display: block;

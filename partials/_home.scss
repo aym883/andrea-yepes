@@ -1,8 +1,17 @@
+.main-index {
+    min-height: 66vh;
+}
+
+.col {
+    min-height: 66vh;
+}
+
 .columna1 {
     padding-left: 3rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
 .h2-index1 {
@@ -24,12 +33,21 @@
     color: rgb(0, 0, 0);
 }
 
+.botones-index{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+    
+}
 .ul-botones-index {
     list-style-type: none;
+
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    margin-top: 1rem;
+    gap: 1rem;
+   
+    
 }
 
 .li-botones-index {
@@ -37,20 +55,26 @@
     font-style: normal;
     font-weight: 400;
     font-size: 1rem;
+    background-color:$colorNaranja;
+
+    border: 0.5rem solid $colorNaranja;
+    border-radius: 2rem;
+   
 }
+
 
 .a-boton-index {
     text-decoration: none;
     text-decoration-line: none;
-
     color: rgb(255, 255, 255);
-    background-color:$colorNaranja;
+    
+}
 
-    border: 0.5rem solid $colorNaranja;
-    border-radius: 5rem;
-    margin-left: 0.5rem;
-    margin-right: 0.5rem;
-    margin-bottom: 1 rem;
+.columna2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:end ;
 }
 
 .foto-index {

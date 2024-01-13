@@ -1,28 +1,31 @@
 .sobremi-wrapper {
+    min-height: 66vh;
 
     .foto-titulo {
-        padding-top: 3rem;
+        padding-top: 1rem;
         display: flex;
         flex-direction: column;
-        justify-content: flex end;
+        justify-content: end;
         align-items: center;
+       
 
         img {
-            width: 50vh;
+            min-width: 30vh;
+            max-width: 60vh;
         }
 
-        h1{
+        h1 {
             font-family: "Lato", sans-serif;
             font-weight: 400;
             font-style: normal;
             font-size: 2.5rem;
             text-align: left;
-            padding-bottom: 3rem;
+            padding-bottom: 4rem;
         }
     }
 
     .texto {
-        padding:5rem;
+        padding: 5rem;
         background-color: $colorRosaClaro;
         text-align: justify;
     }

@@ -97,16 +97,15 @@ li.active {
   background-color: rgb(92, 31, 83);
 }
 
-.checkbtn {
-  color: rgb(255, 255, 255);
-  font-size: 25px;
-  float: right;
-  line-height: 80px;
+#menu-hamburguesa {
   display: none;
-  cursor: pointer;
 }
 
-#check {
+#menu-icon {
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+  line-height: 80px;
+  cursor: pointer;
   display: none;
 }
 
@@ -162,6 +161,9 @@ li.active {
   }
 }
 @media (max-width: 580px) {
+  #menu-icon {
+    display: block;
+  }
   .menu-items {
     position: fixed;
     width: 100vw;
@@ -176,10 +178,7 @@ li.active {
     position: center;
     left: -110%;
   }
-  .checkbtn {
-    display: block;
-  }
-  #check:checked ~ .menu-items {
+  #menu-hamburguesa:checked + .menu-items {
     left: 0;
   }
   .li-menu {
@@ -199,11 +198,20 @@ li.active {
     font-size: 1.1rem;
   }
 }
+.main-index {
+  min-height: 66vh;
+}
+
+.col {
+  min-height: 66vh;
+}
+
 .columna1 {
   padding-left: 3rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 
 .h2-index1 {
@@ -225,12 +233,17 @@ li.active {
   color: rgb(0, 0, 0);
 }
 
+.botones-index {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .ul-botones-index {
   list-style-type: none;
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  margin-top: 1rem;
+  gap: 1rem;
 }
 
 .li-botones-index {
@@ -238,18 +251,22 @@ li.active {
   font-style: normal;
   font-weight: 400;
   font-size: 1rem;
+  background-color: rgb(223, 146, 88);
+  border: 0.5rem solid rgb(223, 146, 88);
+  border-radius: 2rem;
 }
 
 .a-boton-index {
   text-decoration: none;
   text-decoration-line: none;
   color: rgb(255, 255, 255);
-  background-color: rgb(223, 146, 88);
-  border: 0.5rem solid rgb(223, 146, 88);
-  border-radius: 5rem;
-  margin-left: 0.5rem;
-  margin-right: 0.5rem;
-  margin-bottom: 1 rem;
+}
+
+.columna2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: end;
 }
 
 .foto-index {
@@ -287,15 +304,19 @@ li.active {
   padding-bottom: 0.8rem;
 }
 
+.sobremi-wrapper {
+  min-height: 66vh;
+}
 .sobremi-wrapper .foto-titulo {
-  padding-top: 3rem;
+  padding-top: 1rem;
   display: flex;
   flex-direction: column;
-  justify-content: flex end;
+  justify-content: end;
   align-items: center;
 }
 .sobremi-wrapper .foto-titulo img {
-  width: 50vh;
+  min-width: 30vh;
+  max-width: 60vh;
 }
 .sobremi-wrapper .foto-titulo h1 {
   font-family: "Lato", sans-serif;
@@ -303,7 +324,7 @@ li.active {
   font-style: normal;
   font-size: 2.5rem;
   text-align: left;
-  padding-bottom: 3rem;
+  padding-bottom: 4rem;
 }
 .sobremi-wrapper .texto {
   padding: 5rem;
@@ -317,29 +338,28 @@ li.active {
     grid-template-columns: 1fr 2fr;
   }
 }
-.card-portafolio {
+.cards-servicios {
   padding: 2rem;
   background-color: rgb(223, 146, 88);
 }
-.card-portafolio .card .card-title {
+.cards-servicios .card {
+  min-height: 750px;
+}
+.cards-servicios .card .card-title {
   font-family: "Lato", sans-serif;
   font-weight: 700;
   font-style: bold;
   font-size: 1.3rem;
 }
-.card-portafolio .card .card-text {
+.cards-servicios .card .card-text {
   font-family: "Lato", sans-serif;
   font-weight: 300;
   font-style: light;
   font-size: 1.1rem;
 }
 
-.carousel-wrapper {
-  padding: 0.5rem;
-}
-
 .galeria-wrapper {
-  padding: 2rem;
+  margin: 2rem;
 }
 .galeria-wrapper .card {
   font-family: "Lato", sans-serif;

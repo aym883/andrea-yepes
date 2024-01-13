@@ -1,9 +1,10 @@
-.card-portafolio {
+.cards-servicios {
     padding: 2rem;
     background-color: $colorNaranja;
 
     .card {
-
+        min-height: 750px; 
+    
         .card-title {
             font-family: "Lato", sans-serif;
             font-weight: 700;
