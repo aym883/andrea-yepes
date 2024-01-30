@@ -59,8 +59,8 @@
 .navbar {
   background-color: none !important;
 
-  .active{
-    background-color:$colorMoradoClaro;
+  .active {
+    background-color: $colorMoradoClaro;
   }
 
   .nav-link {
@@ -70,20 +70,20 @@
     font-style: light;
     font-weight: 400;
     font-size: 1.1rem;
-    }
-
-    .nav-link:hover {
-      background-color: $colorRosaClaro ;
-    }
-
-    .navbar-toggler{
-      background-color: $colorBlanco;
-    }
-
   }
 
-  @media (max-width: 988px) {
-    .menu{
-      height: auto;
-    }
+  .nav-link:hover {
+    background-color: $colorRosaClaro ;
   }
+
+  .navbar-toggler {
+    background-color: $colorBlanco;
+  }
+
+}
+
+@media (max-width: 988px) {
+  .menu {
+    height: auto;
+  }
+}

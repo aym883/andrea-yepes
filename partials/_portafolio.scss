@@ -6,7 +6,7 @@
         margin: 0.5rem;
         min-height: 600px;
         transition: all 300ms ease;
-    
+
         .card-title {
             font-family: "Lato", sans-serif;
             font-weight: 700;
@@ -23,9 +23,9 @@
             color: $colorBlanco;
         }
 
-        .card-Foto{
+        .card-Foto {
             width: 100%;
-           
+
         }
     }
 
@@ -41,8 +41,8 @@
         background-color: $colorNaranja;
     }
 
-    .card:hover{
+    .card:hover {
         transform: scale(1.03);
-        box-shadow: 1px 1px 5px rgba(0,0,0,50);   
+        box-shadow: 1px 1px 5px rgba(0, 0, 0, 50);
     }
 }

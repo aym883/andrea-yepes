@@ -7,7 +7,7 @@
         flex-direction: column;
         justify-content: flex-end;
         align-items: center;
-       
+
 
         img {
             min-width: 40vh;
@@ -26,18 +26,18 @@
 
     .texto {
         padding: 3rem;
-        background: rgb(231,166,189);
-        background: linear-gradient(0deg, rgba(231,166,189,1) 0%, rgba(240,208,219,1) 40%);   
+        background: rgb(231, 166, 189);
+        background: linear-gradient(0deg, rgba(231, 166, 189, 1) 0%, rgba(240, 208, 219, 1) 40%);
         text-align: justify;
         font-family: "Lato", sans-serif;
         font-weight: 300;
         font-style: light;
         font-size: 1rem;
-        text-align:justify;
+        text-align: justify;
 
-            h3{
-                font-size: 1.1rem;   
-            }
+        h3 {
+            font-size: 1.1rem;
+        }
     }
 }
 
