@@ -1,14 +1,13 @@
 .menu {
-  background: rgb(70,24,63);
-  background: linear-gradient(90deg, rgba(70,24,63,1) 0%, rgba(170,77,158,1) 100%); 
+  background: rgb(70, 24, 63);
+  background: linear-gradient(90deg, rgba(70, 24, 63, 1) 0%, rgba(170, 77, 158, 1) 100%);
 
-  height: 80px;
-  width: 100vw;
-
+  height: 100px;
   display: flex;
 
   align-items: center;
   justify-content: space-around;
+
 }
 
 .logo-nombre {
@@ -17,6 +16,7 @@
   align-items: flex-start;
   margin-right: 1rem;
   margin-top: 2rem;
+
 }
 
 .logo-personal {
@@ -56,178 +56,34 @@
   margin-bottom: 2rem;
 }
 
-.menu-items {
-  list-style-type: none;
+.navbar {
+  background-color: none !important;
 
-  display: flex;
-  flex-direction: row;
-  justify-content: right space-around;
-  align-items: center;
-
-  gap: 2rem;
-  margin-right: 30px;
-  margin-top: 1rem;
-
-  position: right;
-}
-
-.ul-menu {
-  list-style-type: none;
-
-  display: flex;
-  flex-direction: row;
-  justify-content: right space-around;
-  align-items: center;
-
-  gap: 2.5rem;
-  margin-right: 0.5rem;
-
-  position: right;
-}
-
-.a-menu {
-  text-decoration: none;
-  text-decoration-line: none;
-
-  color: $colorBlanco;
-
-  font-family: "Lato", sans-serif;
-  font-style: light;
-  font-weight: 300;
-  font-size: 1.1rem;
-}
-
-.a-menu:hover {
-  background-color: $colorMoradoClaro;
-}
-
-li.active {
-  background-color: $colorMoradoOscuro;
-}
-
-#menu-hamburguesa{
-  display: none;
-}
-
-#menu-icon{
-  color: $colorBlanco;
-  font-size: 25px;
-  line-height: 80px;
-  cursor: pointer;
-  display: none;
-}
-
-@media (max-width: 830px) {
-  .menu {
-    height: 75px;
+  .active{
+    background-color:$colorMoradoClaro;
   }
 
-  .logo-personal {
-    width: 4rem;
-  }
+  .nav-link {
+    color: $colorBlanco;
 
-  .h1-header1 {
-    font-size: 1.2rem;
-  }
-
-  .h1-header2 {
-    font-size: 1.2rem;
-  }
-
-  .a-menu {
-    font-size: 1rem;
-  }
-}
-
-@media (max-width: 715px) {
-  .menu {
-    height: 70px;
-  }
-
-  .logo-personal {
-    width: 3.8rem;
-  }
-
-  .h1-header1 {
-    font-size: 1rem;
-  }
-
-  .h1-header2 {
-    font-size: 1rem;
-  }
-
-  .a-menu {
-    font-size: 0.8rem;
-  }
-}
-
-@media (max-width: 630px) {
-  .menu {
-    height: 65px;
-  }
-
-  .logo-personal {
-    width: 3.5rem;
-  }
-
-  .h1-header1 {
-    font-size: 0.8rem;
-  }
-
-  .h1-header2 {
-    font-size: 0.8rem;
-  }
-
-  .a-menu {
-    font-size: 0.7rem;
-  }
-}
-
-@media (max-width: 580px) {
-
-  #menu-icon{
-  display: block;
-} 
-
-  .menu-items {
-    position: fixed;
-    width: 100vw;
-    height: 100vw;
-    text-align: center;
-    flex-direction: column;
-    background: $colorMoradoClaro;
-    top: 70px;
-
-    gap: 1rem;
-    margin-right: 0rem;
-    margin-top: 0rem;
-
-    position: center;
-    left: -110%;
-  }
-
-  #menu-hamburguesa:checked + .menu-items {
-    left: 0;
-
-  }
-  .li-menu {
-    display: block;
-    margin-top: 5px;
-  }
-
-  .a-menu {
-    font-size: 1rem;
-  }
-
-  .menu {
-    height: 70px;
-  }
-
-  .h1-header1 {
+    font-family: "Lato", sans-serif;
+    font-style: light;
+    font-weight: 400;
     font-size: 1.1rem;
+    }
+
+    .nav-link:hover {
+      background-color: $colorRosaClaro ;
+    }
+
+    .navbar-toggler{
+      background-color: $colorBlanco;
+    }
+
   }
 
-  .h1-header2 {
-    font-size: 1.1rem;
+  @media (max-width: 988px) {
+    .menu{
+      height: auto;
+    }
   }
-}
